@@ -1,0 +1,17 @@
+[east]
+servera.lab.example.com
+[west]
+serverb.lab.example.com
+[south]
+serverc.lab.example.com
+[north]
+serverd.lab.example.com
+[big:children]
+east
+west
+south
+north
+
+[east:vars]
+mypkg1=httpd
+mysvc1=httpd
