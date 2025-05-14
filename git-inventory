@@ -1,3 +1,5 @@
+[common]
+workstation.lab.example.com
 [east]
 servera.lab.example.com
 [west]
